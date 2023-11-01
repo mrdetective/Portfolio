@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+.bigbox {
+  width: 70rem;
+  margin: auto;
+}
+.about-section {
+  height: 41.8rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mypic {
+  height: 22rem;
+  width: 21rem;
+  /* margin-bottom: 10rem; */
+  margin-right: 5%;
+  border-radius: 9rem 14rem 12rem 10rem;
+  z-index: 1;
+  border: solid 3px black;
+  animation: Morph 8s ease-in-out infinite;
+}
+@keyframes Morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.welcome-text {
+  /* font-family: "Nunito", sans-serif; */
+  font-weight: bolder;
+  color: rgb(190, 31, 175);
+  width: 50rem;
+  margin-top: 15rem;
+  margin-right: -4rem;
+}
+
+.hi-text {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  color: black;
+  margin-bottom: -0.5rem;
+  font-size: 5rem;
+}
+
+.welcome-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.github-icon,
+.linkedin-icon {
+  height: 3.2rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.github-icon {
+  height: 3.7rem;
+  margin-top: -0.2rem;
+}
+.github-icon:hover,
+.linkedin-icon:hover {
+  filter: brightness(0.9) invert(0.7) sepia(0.5) hue-rotate(200deg)
+    saturate(200%);
+}
+
+.welcome-img {
+  margin-right: -3rem;
+  margin-top: 4%;
+  margin-bottom: 9rem;
+}
+
+.intro-text {
+  color: rgb(120, 113, 118);
+  /* font-family: "Archivo", sans-serif; */
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 1.5rem;
+}
+
+.tech-stack-text {
+  margin-top: 2rem;
+  font-family: "Archivo", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.tech-stack {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.tech-stack-images {
+  display: flex;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.tech-stack img {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  height: 2.5rem;
+}
+
+.html-img {
+  margin-top: 2.1rem;
+  margin-right: -0.4rem;
+}
+
+.html-css-img img {
+  margin-left: 1rem;
+}
+
+.react-node-img {
+  margin-left: 0.7rem;
+  margin-top: 2rem;
+}
+
+.react-node-img img {
+  margin-left: 0.7rem;
+}
+
+.core-language-img {
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+}
+
+.java-img {
+  margin-left: 0.7rem;
+}
+
+.python-img {
+  margin-left: 0.7rem;
+}
+
+.db-language {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.mongodb-img {
+  margin-left: 0.7rem;
+}
+
+.tools {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.tools .docker-img {
+  height: 2.7rem;
+}
+
+.tech-stack-images div {
+  transition: margin-top 0.8s, filter 0.3s;
+}
+.tech-stack-images div:hover {
+  margin-top: -0.2rem;
+}
