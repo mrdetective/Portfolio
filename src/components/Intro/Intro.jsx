@@ -18,7 +18,7 @@ import dockerimg from "../../assets/Icons/docker.png";
 
 function Intro() {
   return (
-    <section className="intro-section">
+    <section id="home" className="intro-section">
       <div className="welcome-img">
         <div className="welcome-text">
           <div className="hi-text">Hi there👋🏼,</div>

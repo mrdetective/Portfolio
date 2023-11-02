@@ -33,10 +33,10 @@
   cursor: pointer;
 }
 
-.nav-intro:hover,
-.nav-achievements:hover,
+.nav-intro a:hover,
+.nav-achievements a:hover,
 .nav-projects:hover,
-.nav-about:hover {
+.nav-about a:hover {
   color: skyblue;
 }
 .navbar li {

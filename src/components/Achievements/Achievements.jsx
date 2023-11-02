@@ -11,7 +11,7 @@ import cpratingpng from "../../assets/Images/cpratings.png";
 
 function Achievements() {
   return (
-    <section className="achievements-section">
+    <section id="achievements" className="achievements-section">
       <div className="achievements-contents">
         <h1 className="achievements-heading">My Achievements</h1>
         <Swiper

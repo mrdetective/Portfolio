@@ -2,6 +2,10 @@ body {
   background-color: rgb(253, 248, 255);
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
 .app {
   width: 100%;
 }

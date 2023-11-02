@@ -6,7 +6,7 @@ import Astronaut from "../../assets/Animations/astronaut-coding.json";
 
 function About() {
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <div className="about-contents">
         <div className="coffee-img-contents">
           <img src={coffeeimg} className="coffee-img" />

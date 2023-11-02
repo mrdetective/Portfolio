@@ -10,9 +10,15 @@ function Navbar() {
         <ul className="nav-username">MrDetective.dev</ul>
       </li>
       <li className="nav-items">
-        <ul className="nav-intro">Home</ul>
-        <ul className="nav-about">About</ul>
-        <ul className="nav-achievements">Achievements</ul>
+        <ul className="nav-intro">
+          <a href="#home">Home</a>
+        </ul>
+        <ul className="nav-about">
+          <a href="#about">About</a>
+        </ul>
+        <ul className="nav-achievements">
+          <a href="#achievements">Achievements</a>
+        </ul>
         <ul className="nav-projects">Projects</ul>
       </li>
     </nav>
