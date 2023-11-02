@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+.achievements-section {
+  height: 44.8rem;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.achievements-heading {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: aliceblue;
+  font-family: "Lilita One", sans-serif;
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+
+.achievements-contents {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.mySwiper {
+  height: 32rem;
+  color: whitesmoke;
+  width: 50rem;
+  margin-top: 0rem;
+}
+
+.achievement-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icpc-img {
+  height: 10rem;
+  width: 15rem;
+  margin: 6rem auto;
+}
+
+.achievement-1-text {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  margin: -1rem auto;
+  font-size: 1.5rem;
+}
+
+.achiemenet-1-innertext {
+  margin: 2rem auto;
+  color: rgb(179, 184, 188);
+}

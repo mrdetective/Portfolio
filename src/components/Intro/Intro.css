@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+
+.intro-section {
+  height: 44.8rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22 22 22);
+  background-size: cover;
+}
+
+.mypic {
+  height: 17rem;
+  width: 21rem;
+  margin-bottom: 3rem;
+  margin-right: -2%;
+  border-radius: 9rem 14rem 12rem 10rem;
+  z-index: 1;
+  border: solid 3px aliceblue;
+  animation: Morph 8s ease-in-out infinite;
+}
+@keyframes Morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.welcome-text {
+  /* font-family: "Nunito", sans-serif; */
+  font-weight: bolder;
+  color: rgb(150, 232, 247);
+  width: 50rem;
+  margin-top: 15rem;
+  margin-right: -4rem;
+}
+.welcome-typed-text {
+  font-family: "Allerta Stencil", sans-serif;
+  color: rgb(149, 149, 149);
+}
+
+.hi-text {
+  font-family: "Lilita One", sans-serif;
+  font-weight: lighter;
+  color: rgb(210 210 210);
+  /* margin-bottom: 1rem; */
+  font-size: 5rem;
+}
+
+.welcome-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.github-icon,
+.linkedin-icon {
+  height: 2rem;
+  cursor: pointer;
+  filter: invert(100%);
+  transition: filter 0.2s;
+}
+
+.github-icon {
+  height: 2.5rem;
+  margin-top: -0.2rem;
+}
+.github-icon:hover,
+.linkedin-icon:hover {
+  filter: brightness(0.9) invert(0.7) sepia(0.5) hue-rotate(200deg)
+    saturate(200%);
+}
+
+.welcome-img {
+  margin-right: -3rem;
+  margin-top: 0%;
+  margin-bottom: 9rem;
+}
+
+.intro-text {
+  color: rgb(160 170 176);
+  font-family: "Archivo", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-top: 2.5rem;
+}
+
+.tech-stack-text {
+  margin-top: 2rem;
+  font-family: "Archivo", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  border-right: solid 1px aliceblue;
+  width: 7rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  color: azure;
+}
+
+.tech-stack {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.tech-stack-images {
+  display: flex;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.tech-stack img {
+  height: 2.5rem;
+}
+
+.html-img {
+  margin-top: 2.1rem;
+  margin-right: -0.6rem;
+}
+
+.html-css-img img {
+  margin-left: 1rem;
+}
+
+.react-node-img {
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+}
+
+.react-node-img {
+  margin-left: 2rem;
+}
+.react-img {
+  margin-right: 0.2rem;
+}
+.core-language-img {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.java-img {
+  margin-left: 0.7rem;
+}
+
+.python-img {
+  margin-left: 0.7rem;
+}
+
+.db-language {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.mongodb-img {
+  margin-left: 0.1rem;
+}
+
+.tools {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.tools .docker-img {
+  height: 2.7rem;
+}
+
+.tech-stack-images div {
+  transition: margin-top 0.8s, filter 0.3s;
+}
+.tech-stack-images div:hover {
+  margin-top: -0.2rem;
+}
+
+.download-resume-btn {
+  margin-top: rem;
+  height: 2rem;
+  font-size: 10px;
+  width: 8rem;
+  background-color: transparent;
+  border-radius: 1rem;
+  transition: border 0.2s;
+  cursor: pointer;
+  color: aliceblue;
+  border-color: aliceblue;
+}
+
+.download-resume-btn:hover {
+  color: skyblue;
+  border-color: skyblue;
+}

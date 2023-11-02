@@ -1,16 +1,17 @@
 .navbar {
-  height: 5rem;
-  background-color: rgb(255, 255, 255);
+  height: 4.5rem;
+  background-color: black;
   position: sticky;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: "Nunito", sans-serif;
-  color: rgb(1, 9, 12);
+  color: whitesmoke;
   font-weight: 900;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   position: fixed;
+  z-index: 2;
 }
 
 .nav-items-left {
@@ -26,10 +27,18 @@
 
 .nav-intro,
 .nav-achievements,
-.nav-projects {
+.nav-projects,
+.nav-about {
   margin-right: 1rem;
+  cursor: pointer;
 }
 
+.nav-intro:hover,
+.nav-achievements:hover,
+.nav-projects:hover,
+.nav-about:hover {
+  color: skyblue;
+}
 .navbar li {
   list-style: none;
 }
@@ -37,4 +46,11 @@
 .nav-items {
   display: flex;
   margin-right: 1.5rem;
+}
+
+.logo-img {
+  height: 2.5rem;
+  border: solid black;
+  margin-left: 2rem;
+  margin-right: -1rem;
 }
