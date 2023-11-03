@@ -15,7 +15,7 @@ function About() {
           </div>
         </div>
         <div className="about-text">
-          <h2 className="about-heading">About me</h2>
+          <h2 className="about-heading">ABOUT ME</h2>
           <h2 className="about-start">
             A dedicated full-stack web developer <br /> with expertise in both
             frontend and <br />

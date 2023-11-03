@@ -13,7 +13,7 @@ function Achievements() {
   return (
     <section id="achievements" className="achievements-section">
       <div className="achievements-contents">
-        <h1 className="achievements-heading">My Achievements</h1>
+        <h1 className="achievements-heading">My Achievements 🏆</h1>
         <Swiper
           cssMode={true}
           navigation={true}

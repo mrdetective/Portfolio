@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+.projects-section {
+  height: 90rem;
+  display: flex;
+  margin-top: 10rem;
+  justify-content: center;
+  background-color: rgb(253, 248, 255);
+}
+
+.projects-content {
+  height: 65rem;
+  width: 50rem;
+}
+
+.projects-heading {
+  font-family: "Varela Round", sans-serif;
+  color: blueviolet;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.projects-start {
+  margin-top: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.project-1 {
+  height: 23rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  background-color: rgb(248, 241, 248);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-1-contents {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.devnest-img {
+  height: 80%;
+  width: 50%;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.project-1-text {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+.project-1-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+  font-size: 1.2rem;
+}
+
+.project-1-body {
+  color: rgb(73, 73, 73);
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  margin-top: 2rem;
+}
+
+.github-img {
+  height: 2rem;
+  width: 2rem;
+  margin: 2rem auto;
+  cursor: pointer;
+}
+
+.github-img:hover {
+  filter: brightness(0.9) invert(0.7) sepia(0.5) hue-rotate(100deg)
+    saturate(200%);
+}
+
+.right {
+  margin-right: 2rem;
+}
