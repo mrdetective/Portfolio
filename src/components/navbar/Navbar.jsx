@@ -2,7 +2,10 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/Images/logo.png";
 
-function Navbar() {
+function Navbar({homeref, aboutref, achievementsref, projectsref}) {
+  const scrollTo = (ref) => {
+    ref.current?.scrollIntoView({behavior: "smooth"});
+  };
   return (
     <nav className="navbar">
       <li className="nav-items-left">
@@ -10,16 +13,34 @@ function Navbar() {
         <ul className="nav-username">MrDetective.dev</ul>
       </li>
       <li className="nav-items">
-        <ul className="nav-intro">
-          <a href="#home">Home</a>
+        <ul
+          className="nav-intro"
+          onClick={() => {
+            scrollTo(homeref);
+          }}>
+          Home
         </ul>
-        <ul className="nav-about">
-          <a href="#about">About</a>
+        <ul
+          className="nav-about"
+          onClick={() => {
+            scrollTo(aboutref);
+          }}>
+          About
         </ul>
-        <ul className="nav-achievements">
-          <a href="#achievements">Achievements</a>
+        <ul
+          className="nav-achievements"
+          onClick={() => {
+            scrollTo(achievementsref);
+          }}>
+          Achievements
         </ul>
-        <ul className="nav-projects">Projects</ul>
+        <ul
+          className="nav-projects"
+          onClick={() => {
+            scrollTo(projectsref);
+          }}>
+          Projects
+        </ul>
       </li>
     </nav>
   );

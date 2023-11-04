@@ -4,9 +4,9 @@ import "./About.css";
 import coffeeimg from "../../assets/Images/Coffee-img.jpg";
 import Astronaut from "../../assets/Animations/astronaut-coding.json";
 
-function About() {
+function About({aboutref}) {
   return (
-    <section id="about" className="about-section">
+    <section ref={aboutref} className="about-section">
       <div className="about-contents">
         <div className="coffee-img-contents">
           <img src={coffeeimg} className="coffee-img" />

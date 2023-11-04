@@ -16,9 +16,9 @@ import mysqlimg from "../../assets/Icons/mysql.png";
 import mongodbimg from "../../assets/Icons/mongodb.png";
 import dockerimg from "../../assets/Icons/docker.png";
 
-function Intro() {
+function Intro({homeref}) {
   return (
-    <section id="home" className="intro-section">
+    <section ref={homeref} className="intro-section">
       <div className="welcome-img">
         <div className="welcome-text">
           <div className="hi-text">Hi there👋🏼,</div>

@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 .projects-section {
-  height: 90rem;
+  height: 103rem;
   display: flex;
-  margin-top: 10rem;
+  margin-top: 0rem;
   justify-content: center;
   background-color: rgb(253, 248, 255);
 }
@@ -10,6 +10,7 @@
 .projects-content {
   height: 65rem;
   width: 50rem;
+  margin-top: 10rem;
 }
 
 .projects-heading {
@@ -27,7 +28,7 @@
   font-size: 1.3rem;
 }
 
-.project-1 {
+.project {
   height: 23rem;
   margin-top: 3rem;
   margin-bottom: 5rem;
@@ -40,7 +41,7 @@
   align-items: center;
 }
 
-.project-1-contents {
+.project-contents {
   height: 100%;
   width: 100%;
   display: flex;
@@ -56,7 +57,7 @@
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.project-1-text {
+.project-text {
   height: 100%;
   width: 30%;
   display: flex;
@@ -66,7 +67,7 @@
   text-align: center;
 }
 
-.project-1-heading {
+.project-heading {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin-top: 2rem;
@@ -74,7 +75,7 @@
   font-size: 1.2rem;
 }
 
-.project-1-body {
+.project-body {
   color: rgb(73, 73, 73);
   font-size: 0.9rem;
   line-height: 1.2rem;
@@ -95,4 +96,10 @@
 
 .right {
   margin-right: 2rem;
+  width: 55%;
+  height: 70%;
+}
+.left {
+  height: 70%;
+  width: 55%;
 }

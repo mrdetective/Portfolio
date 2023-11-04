@@ -9,9 +9,9 @@ import icpcimg from "../../assets/Icons/icpc.png";
 import solvecountpng from "../../assets/Images/solvecount.png";
 import cpratingpng from "../../assets/Images/cpratings.png";
 
-function Achievements() {
+function Achievements({achievementsref}) {
   return (
-    <section id="achievements" className="achievements-section">
+    <section ref={achievementsref} className="achievements-section">
       <div className="achievements-contents">
         <h1 className="achievements-heading">My Achievements 🏆</h1>
         <Swiper

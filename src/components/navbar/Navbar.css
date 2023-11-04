@@ -35,7 +35,7 @@
 
 .nav-intro a:hover,
 .nav-achievements a:hover,
-.nav-projects:hover,
+.nav-projects a:hover,
 .nav-about a:hover {
   color: skyblue;
 }
