@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/Images/logo.png";
 
-function Navbar({homeref, aboutref, achievementsref, projectsref}) {
+function Navbar({homeref, aboutref, achievementsref, projectsref, contactref}) {
   const scrollTo = (ref) => {
     ref.current?.scrollIntoView({behavior: "smooth"});
   };
@@ -40,6 +40,13 @@ function Navbar({homeref, aboutref, achievementsref, projectsref}) {
             scrollTo(projectsref);
           }}>
           Projects
+        </ul>
+        <ul
+          className="nav-contact"
+          onClick={() => {
+            scrollTo(contactref);
+          }}>
+          Contact me
         </ul>
       </li>
     </nav>

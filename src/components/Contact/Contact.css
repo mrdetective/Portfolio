@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.contact-section {
+  height: 44.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22, 22, 22);
+}
+
+.contact-contents {
+  width: 60rem;
+  /* border: solid red; */
+  height: 40rem;
+  margin-left: 10rem;
+}
+
+.contact-heading {
+  color: blueviolet;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-start {
+  margin-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.contact-body {
+  margin-top: 2rem;
+}
+
+.contact-body {
+  display: flex;
+}
+
+.mode {
+  margin-bottom: 1.5rem;
+}
+
+.modes {
+  list-style: none;
+}
+
+.mode {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.mode-type {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.mode-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(163, 168, 172);
+}
+
+.social-icons {
+  color: aliceblue;
+  margin-right: 0.8rem;
+}
+
+.input-details {
+  margin-left: 7rem;
+}
+
+.name-email textarea {
+  height: 4rem;
+  width: 10.1rem;
+  background-color: rgb(37, 36, 36);
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  resize: none;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.email-input {
+  margin-left: 1rem;
+  resize: none;
+}
+
+.subject {
+  margin-top: 1rem;
+  height: 4rem;
+  width: 22.3rem;
+  background-color: rgb(37, 36, 36);
+  border-radius: 5px;
+  border: none;
+  resize: none;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.message {
+  margin-top: 1rem;
+  height: 13rem;
+  width: 22.3rem;
+  background-color: rgb(37, 36, 36);
+  border-radius: 5px;
+  border: none;
+  resize: none;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.send-email-btn {
+  margin-top: 1rem;
+  width: 9rem;
+  height: 2.5rem;
+  border: so;
+  background-color: blueviolet;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-btn-icon {
+  margin-left: 0.5rem;
+}

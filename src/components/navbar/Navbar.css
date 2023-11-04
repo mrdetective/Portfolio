@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: whitesmoke;
   font-weight: 900;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -28,16 +28,17 @@
 .nav-intro,
 .nav-achievements,
 .nav-projects,
-.nav-about {
+.nav-about,
+.nav-contact {
   margin-right: 1rem;
   cursor: pointer;
 }
-
-.nav-intro a:hover,
-.nav-achievements a:hover,
-.nav-projects a:hover,
-.nav-about a:hover {
-  color: skyblue;
+.nav-intro:hover,
+.nav-achievements:hover,
+.nav-projects:hover,
+.nav-about:hover,
+.nav-contact:hover {
+  color: rgb(78, 78, 220);
 }
 .navbar li {
   list-style: none;

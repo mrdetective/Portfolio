@@ -6,3 +6,7 @@ body {
 .app {
   width: 100%;
 }
+
+textarea {
+  color: whitesmoke;
+}
