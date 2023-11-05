@@ -73,14 +73,15 @@
 
 .name-email textarea {
   height: 4rem;
-  width: 10.1rem;
   background-color: rgb(37, 36, 36);
+  width: 9.1rem;
   border: none;
   border-radius: 5px;
   color: whitesmoke;
   resize: none;
   padding-top: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .email-input {
@@ -129,4 +130,12 @@
 
 .send-btn-icon {
   margin-left: 0.5rem;
+}
+
+.send-email-btn:hover {
+  background-color: rgb(150, 69, 225);
+}
+
+.link {
+  text-decoration: none;
 }

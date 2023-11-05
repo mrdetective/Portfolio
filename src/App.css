@@ -10,3 +10,7 @@ body {
 textarea {
   color: whitesmoke;
 }
+
+a {
+  text-decoration: none;
+}
