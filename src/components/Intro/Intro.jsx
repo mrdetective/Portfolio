@@ -22,26 +22,28 @@ function Intro({homeref}) {
       <div className="welcome-img">
         <div className="welcome-text">
           <div className="hi-text">Hi there👋🏼,</div>
-          <TypeAnimation
-            sequence={[
-              `I'm a Fullstack Web Developer`,
-              1000,
-              `I'm a Competitive Programmer`,
-              1000,
-            ]}
-            speed={50}
-            style={{
-              whiteSpace: "pre-line",
-              fontSize: "2rem",
-              width: "20rem",
-            }}
-            repeat={Infinity}
-            className="welcome-typed-text"
-          />
+          <div className="welcome-typed-text">
+            <TypeAnimation
+              sequence={[
+                `I'm a Fullstack Web Developer`,
+                1000,
+                `I'm a Competitive Programmer`,
+                1000,
+              ]}
+              speed={50}
+              style={{
+                whiteSpace: "pre-line",
+                fontSize: "1.2rem",
+                width: "20rem",
+              }}
+              repeat={Infinity}
+              className="welcome-typed-text"
+            />
+          </div>
         </div>
         <div className="intro-text">
-          I'm Harsha Gupta, a passionate FullStack Developer
-          <br /> based in West Bengal, India 📍
+          I'm Harsha Gupta, a passionate FullStack Developer based in West
+          Bengal, India 📍
         </div>
         <div className="welcome-icons">
           <Link to="https://github.com/mrdetective" target="_blank">

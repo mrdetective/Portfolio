@@ -47,6 +47,7 @@
 .welcome-typed-text {
   font-family: "Allerta Stencil", sans-serif;
   color: rgb(149, 149, 149);
+  font-size: 1rem;
 }
 
 .hi-text {
@@ -91,7 +92,7 @@
   color: rgb(160 170 176);
   font-family: "Archivo", sans-serif;
   font-weight: lighter;
-  font-size: 18px;
+  font-size: 1.2rem;
   margin-top: 2.5rem;
 }
 
@@ -111,11 +112,13 @@
 .tech-stack {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 2rem;
 }
 
 .tech-stack-images {
   display: flex;
+  justify-content: center;
   cursor: pointer;
   margin-left: 2rem;
 }
@@ -198,4 +201,70 @@
 .download-resume-btn:hover {
   color: skyblue;
   border-color: skyblue;
+}
+
+@media (max-width: 800px) {
+  .intro-section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+  }
+  .welcome-img {
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    margin-left: -1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .welcome-text {
+    margin-top: -2rem;
+    margin-right: 1rem;
+    width: 35rem;
+  }
+  .hi-text {
+    font-size: 2rem;
+  }
+  .mypic {
+    height: 12rem;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: -1rem;
+  }
+  .welcome-typed-text {
+    font-size: 0.7rem;
+  }
+  .intro-text {
+    font-size: 0.9rem;
+    margin-left: -3rem;
+    text-align: center;
+    margin-top: 1rem;
+    width: 15rem;
+  }
+  .tech-stack {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-right: 2rem;
+  }
+  .tech-stack-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: -1rem;
+  }
+  .tech-stack-text {
+    border-right: none;
+    border-bottom: solid 1px aliceblue;
+    display: flex;
+    justify-content: center;
+  }
+  .welcome-icons {
+    margin-left: -2rem;
+  }
 }

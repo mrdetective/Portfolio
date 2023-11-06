@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "./Achievements.css";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation, Pagination, Mousewheel, Keyboard} from "swiper/modules";
@@ -10,13 +10,17 @@ import solvecountpng from "../../assets/Images/solvecount.png";
 import cpratingpng from "../../assets/Images/cpratings.png";
 
 function Achievements({achievementsref}) {
+  const [SwipperBtn, setSwipperBtn] = useState(true);
+  useEffect(() => {
+    if (window.innerWidth <= 800) setSwipperBtn(false);
+  });
   return (
     <section ref={achievementsref} className="achievements-section">
       <div className="achievements-contents">
         <h1 className="achievements-heading">My Achievements 🏆</h1>
         <Swiper
           cssMode={true}
-          navigation={true}
+          navigation={SwipperBtn}
           pagination={true}
           mousewheel={true}
           keyboard={true}

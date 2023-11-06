@@ -82,3 +82,49 @@
   height: 8rem;
   margin-left: -0.4rem;
 }
+
+@media (max-width: 800px) {
+  .about-section {
+    height: 55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coffee-img {
+    margin-top: 1rem;
+    height: 13rem;
+    width: 15rem;
+  }
+  .coffee-img-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .white-circle {
+    margin-top: 11rem;
+    width: 6rem;
+    height: 6rem;
+    margin-right: 10rem;
+  }
+  .astronaut-icon {
+    height: 5rem;
+  }
+  .about-heading {
+    font-size: 0.7rem;
+  }
+  .about-start {
+    font-size: 1rem;
+  }
+  .about-body {
+    font-size: 0.8rem;
+    width: 20rem;
+  }
+  .about-text {
+    margin-left: 1rem;
+  }
+}

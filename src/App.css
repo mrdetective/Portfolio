@@ -1,10 +1,5 @@
 body {
   background-color: rgb(253, 248, 255);
-  overflow-x: hidden;
-}
-
-.app {
-  width: 100%;
 }
 
 textarea {
@@ -13,4 +8,8 @@ textarea {
 
 a {
   text-decoration: none;
+}
+
+.app {
+  overflow-x: hidden;
 }

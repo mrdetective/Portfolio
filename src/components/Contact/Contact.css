@@ -139,3 +139,61 @@
 .link {
   text-decoration: none;
 }
+
+@media (max-width: 800px) {
+  .contact-contents {
+    width: 22rem;
+    margin-left: 5rem;
+  }
+  .contact-heading {
+    font-size: 0.7rem;
+  }
+  .contact-start {
+    font-size: 1rem;
+  }
+  .contact-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-section {
+    height: 70rem;
+  }
+  .input-details {
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+  .email-input {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  .name-email textarea {
+    height: 2.5rem;
+  }
+  .name-email {
+    display: flex;
+    flex-direction: column;
+  }
+  .subject {
+    width: 17rem;
+  }
+  .message {
+    width: 17rem;
+  }
+  .send-email-btn {
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+  .send-btn-icon {
+    height: 0.9rem;
+  }
+  .contact-body {
+    margin-left: -3rem;
+  }
+  .contact-heading {
+    margin-top: -10rem;
+  }
+  .calendly {
+    height: 22rem;
+    width: 22rem;
+  }
+}

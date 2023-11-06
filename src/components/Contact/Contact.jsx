@@ -7,6 +7,7 @@ import {FaLocationDot} from "react-icons/fa6";
 import {BsFillSendFill} from "react-icons/bs";
 import {useForm, ValidationError} from "@formspree/react";
 import {toast} from "react-toastify";
+import {PopupModal} from "react-calendly";
 
 function Contact({contactref}) {
   const [state, handleSubmit] = useForm("xzblwvew");
@@ -15,6 +16,7 @@ function Contact({contactref}) {
   const [subjectVal, setsubjectVal] = useState("");
   const [messageVal, setmessageVal] = useState("");
   const [loading, setloading] = useState(false);
+  const [openCalender, setopenCalender] = useState(false);
 
   const handleformSubmit = async (e) => {
     setloading(true);
@@ -54,6 +56,15 @@ function Contact({contactref}) {
 
   return (
     <section className="contact-section" ref={contactref}>
+      <PopupModal
+        url="https://calendly.com/guptaharsha"
+        onModalClose={() => {
+          setopenCalender(false);
+        }}
+        className="calendly"
+        open={openCalender}
+        rootElement={document.getElementById("root")}
+      />
       <div className="contact-contents">
         <h3 className="contact-heading">CONTACT</h3>
         <h1 className="contact-start">Dont't be shy! Hit me up 👇 </h1>
@@ -80,7 +91,11 @@ function Contact({contactref}) {
               </a>
               <ul className="mode">
                 <SlCalender className="social-icons" size={25} />
-                <div className="mode-text">
+                <div
+                  className="mode-text"
+                  onClick={() => {
+                    setopenCalender(true);
+                  }}>
                   <h1 className="mode-type">Online Meet</h1>
                   <h3 className="mode-name">Schedule a meet</h3>
                 </div>

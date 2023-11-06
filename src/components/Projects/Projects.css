@@ -103,3 +103,62 @@
   height: 70%;
   width: 55%;
 }
+
+@media (max-width: 800px) {
+  .projects-heading {
+    font-size: 0.7rem;
+    margin-left: 2rem;
+  }
+  .projects-start {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+  .project-contents {
+    width: 22rem;
+  }
+
+  .project {
+    width: 20rem;
+    height: 40rem;
+  }
+  .project-contents {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .project-body {
+    width: 17rem;
+  }
+  .project-text {
+    margin-left: 0.5rem;
+    width: 96%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .devnest-img {
+    height: 15rem;
+    width: 21rem;
+    margin-left: 0rem;
+  }
+
+  .projects-section {
+    height: 160rem;
+  }
+  .left {
+    width: 21rem;
+  }
+  .right {
+    margin-right: 0rem;
+  }
+}

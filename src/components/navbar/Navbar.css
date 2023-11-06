@@ -55,3 +55,48 @@
   margin-left: 2rem;
   margin-right: -1rem;
 }
+
+.hamburger-icon {
+  margin-right: 2.5rem;
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .hamburger-container {
+    height: 10rem;
+    width: 5rem;
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-username {
+    font-size: 1rem;
+  }
+  .logo-img {
+    height: 2rem;
+  }
+  .hamburger-icon {
+    display: block;
+    margin-top: -9rem;
+    margin-left: 1.7rem;
+  }
+  .nav-items {
+    flex-direction: column;
+    margin-left: 0rem;
+    position: absolute;
+    margin-top: -0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    height: 6rem;
+    width: 6rem;
+    display: none;
+  }
+  .nav-items ul {
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    text-align: center;
+  }
+}

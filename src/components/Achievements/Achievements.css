@@ -106,3 +106,48 @@
   text-align: center;
   color: rgb(179, 184, 188);
 }
+
+@media (max-width: 800px) {
+  .achievements-heading {
+    margin: auto;
+    font-size: 2rem;
+  }
+  .achievements-contents {
+    width: 20rem;
+    height: 30rem;
+    margin-top: -1rem;
+  }
+  .mySwiper {
+    height: 20rem;
+    width: 20rem;
+  }
+  .icpc-img {
+    height: 3rem;
+    width: 8rem;
+    margin-top: 0rem;
+  }
+  .achievement-1-text {
+    font-size: 1rem;
+  }
+  .achievement-2-heading {
+    font-size: 1rem;
+    margin-left: -10rem;
+    margin-top: 5rem;
+    width: 20rem;
+  }
+  .solve-count-png {
+    height: 7rem;
+    width: 15rem;
+    margin: 0rem;
+    margin-left: -7.5rem;
+  }
+  .cp-rating-img {
+    height: 7rem;
+    width: 15rem;
+    margin-top: 0rem;
+  }
+  .achievement-2 {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -15,7 +15,7 @@ function Landing() {
   const contactref = useRef(null);
 
   return (
-    <div>
+    <div className="bigbox">
       <Navbar
         homeref={homeref}
         aboutref={aboutref}
