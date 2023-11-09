@@ -54,8 +54,8 @@ function Achievements({achievementsref}) {
               <img src={cpratingpng} className="cp-rating-img" />
               <div className="achievement-3-heading">My Ratings</div>
               <li className="achievement-3-text">
-                <ul>• Codechef Rating: 1396</ul>
-                <ul>• Codeforces Rating: 1843</ul>
+                <ul>• Codechef Rating: 1833</ul>
+                <ul>• Codeforces Rating: 1364</ul>
               </li>
             </div>
           </SwiperSlide>
